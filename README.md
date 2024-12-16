@@ -15,5 +15,6 @@ I will update this list as I continue development.
 		2) navigate to local folder using command prompt:
 		   `cd path/to/folder`
 		3) Clone repository:
-		   `git clone `
+		   `git clone https://github.com/brheinfelder/session-notes.git`
 	1) Using Zip (Option 2)
+		1) ![[zip-download.png]]
