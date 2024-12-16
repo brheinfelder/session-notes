@@ -46,5 +46,6 @@ Last few things:
 	5) [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin)
 	6) [Modal Forms](https://github.com/danielo515/obsidian-modal-form)
 	7) [Super Duper Audio Recorder](https://github.com/madpin/super-duper-audio-recorder)
-	8) [Templater](https://github.com/SilentVoid13/Templater)
+	8) [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+	9) [Templater](https://github.com/SilentVoid13/Templater)
 3) This whole vault is a very active work-in-progress and is currently in pretty rough shape, but I wanted to get something 'usable' published as soon as I could. Feedback, Feature requests, and bug reports are *very* welcome and appreciated. Just open a GitHub issue and let me know what you think!
