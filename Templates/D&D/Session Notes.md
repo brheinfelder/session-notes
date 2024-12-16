@@ -10,7 +10,7 @@ tags:
   - session
 ---
 >[!Recording|float-right] Session Recording
->`BUTTON[start-recording]` `BUTTON[stop-recording]` `BUTTON[add-note]`
+>`BUTTON[start-recording]`
 >```dataviewjs
 >const file = dv.pages().where(p => p = this);
 >const link = file['recording-link'][0];
@@ -41,10 +41,13 @@ id: start-recording
 style: plain
 actions:
   - type: command
-    command: audio-recorder:start
+    command: super-duper-audio-recorder:start-stop-recording
   - type: command
     command: templater-obsidian:Templates/D&D/Session Recording Start Snippet.md
-
+  - type: regexpReplaceInNote
+    regexp: (\`BUTTON\[start-recording\]\`)1?
+    replacement: "`BUTTON[stop-recording]` `BUTTON[add-note]`"
+    regexpFlags: s
 ```
 ```meta-bind-button
 label: "Stop Recording"
@@ -56,9 +59,13 @@ id: stop-recording
 style: plain
 actions:
   - type: command
-    command: audio-recorder:stop
+    command: super-duper-audio-recorder:start-stop-recording
   - type: command
     command: templater-obsidian:Templates/D&D/Session Recording Stop Snippet.md
+  - type: regexpReplaceInNote
+    regexp: (\`BUTTON\[stop-recording\]\` \`BUTTON\[add-note\]\`)1?
+    replacement: "`BUTTON[start-recording]`"
+    regexpFlags: s
 ```
 ```meta-bind-button
 label: New Timestamp

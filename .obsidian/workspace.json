@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "D&D/Campaigns/Campaigns.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Campaigns"
             }
           }
         ]
@@ -121,33 +121,33 @@
   },
   "active": "627cc7057aa24a8b",
   "lastOpenFiles": [
-    "Documentation/Session Notes.md",
+    "Templates/D&D/Session Notes.md",
     "Templates/D&D/Session Recording Stop Snippet.md",
+    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16.md",
+    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16 Session Recording.wav",
+    "Recordings",
+    "Recordings/recording-multitrack-2024-12-16T21-48-04-102Z.wav",
+    "D&D/Campaigns/Denar Campaign/Denar Campaign.md",
+    "D&D/Campaigns/Denar Campaign/2024-12-16",
+    "Templates/D&D/Session Timestamp Snippet.md",
+    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16 Session Recording.wav",
+    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16 Session Recording.wav",
+    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16 Session Recording.wav",
+    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16 Session Recording.wav",
+    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16 Session Recording.wav",
+    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16 Session Recording.wav",
+    "D&D/Campaigns/Campaigns.md",
+    "Templates/D&D/Session Recording Start Snippet.md",
+    "Templates/D&D/Campaign Template.md",
+    "README.md",
+    "Documentation/Session Notes.md",
     "D&D/Campaigns/Test/Test.md",
     "D&D/Campaigns/Test/2024-12-16/2024-12-16.md",
-    "D&D/Campaigns/Test/2024-12-16/2024-12-16 Session Recording.wav",
-    "Recordings",
-    "D&D/Campaigns/Test/2024-12-16/2024-12-16 Session Recording.wav",
-    "D&D/Campaigns/Test/2024-12-16/2024-12-16 Session Recording.wav",
-    "Templates/D&D/Session Recording Start Snippet.md",
-    "D&D/Campaigns/Test/2024-12-16/2024-12-16 Session Recording.wav",
-    "D&D/Campaigns/Test/2024-12-16/2024-12-16.wav",
-    "Recordings/recording-multitrack-2024-12-16T18-47-32-054Z.wav",
-    "D&D/Campaigns/Test/2024-12-16/2024-12-16.wav",
-    "D&D/Campaigns/Test/2024-12-16/2024-12-16.wav",
-    "Recordings/recording-multitrack-2024-12-16T18-44-45-857Z.wav",
-    "D&D/Campaigns/Campaigns.md",
-    "Templates/D&D/Session Notes.md",
-    "README.md",
     "Documentation/Badges.md",
     "Documentation/obsidian-open-folder.png",
-    "Templates/D&D/Session Timestamp Snippet.md",
-    "Templates/D&D/Campaign Template.md",
     "Documentation/zip-download.png",
     "Templates/D&D/Obsidian.md",
     "Templates/D&D/Badges.md",
-    "D&D/Campaigns/Denar Campaign/Denar Campaign.md",
-    "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16.md",
     "Denar/Denar.md",
     "Welcome.md"
   ]

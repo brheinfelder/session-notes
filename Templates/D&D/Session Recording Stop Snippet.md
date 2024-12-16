@@ -1,4 +1,4 @@
-<%* await sleep(100);
+<%* await sleep(2000);
 const path = tp.file.folder(true);
 let files = tp.app.vault.getFiles();
 let recording = null;
