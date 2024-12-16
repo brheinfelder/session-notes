@@ -45,5 +45,6 @@ Last few things:
 	4) [Force Note View Mode](https://github.com/bwydoogh/obsidian-force-view-mode-of-note)
 	5) [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin)
 	6) [Modal Forms](https://github.com/danielo515/obsidian-modal-form)
-	7) [Templater](https://github.com/SilentVoid13/Templater)
+	7) [Super Duper Audio Recorder](https://github.com/madpin/super-duper-audio-recorder)
+	8) [Templater](https://github.com/SilentVoid13/Templater)
 3) This whole vault is a very active work-in-progress and is currently in pretty rough shape, but I wanted to get something 'usable' published as soon as I could. Feedback, Feature requests, and bug reports are *very* welcome and appreciated. Just open a GitHub issue and let me know what you think!

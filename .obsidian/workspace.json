@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "613558c5dc3c7f1b",
+        "id": "ccaf52dd53a18603",
         "type": "tabs",
         "children": [
           {
-            "id": "7678ef7853e65247",
+            "id": "627cc7057aa24a8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -110,39 +114,41 @@
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
       "templater-obsidian:Templater": false,
-      "modalforms:Edit forms": false
+      "modalforms:Edit forms": false,
+      "super-duper-audio-recorder:Start/Stop Recording": false
     }
   },
-  "active": "7678ef7853e65247",
+  "active": "627cc7057aa24a8b",
   "lastOpenFiles": [
     "Documentation/Session Notes.md",
+    "Templates/D&D/Session Recording Stop Snippet.md",
+    "D&D/Campaigns/Test/Test.md",
+    "D&D/Campaigns/Test/2024-12-16/2024-12-16.md",
+    "D&D/Campaigns/Test/2024-12-16/2024-12-16 Session Recording.wav",
+    "Recordings",
+    "D&D/Campaigns/Test/2024-12-16/2024-12-16 Session Recording.wav",
+    "D&D/Campaigns/Test/2024-12-16/2024-12-16 Session Recording.wav",
+    "Templates/D&D/Session Recording Start Snippet.md",
+    "D&D/Campaigns/Test/2024-12-16/2024-12-16 Session Recording.wav",
+    "D&D/Campaigns/Test/2024-12-16/2024-12-16.wav",
+    "Recordings/recording-multitrack-2024-12-16T18-47-32-054Z.wav",
+    "D&D/Campaigns/Test/2024-12-16/2024-12-16.wav",
+    "D&D/Campaigns/Test/2024-12-16/2024-12-16.wav",
+    "Recordings/recording-multitrack-2024-12-16T18-44-45-857Z.wav",
+    "D&D/Campaigns/Campaigns.md",
     "Templates/D&D/Session Notes.md",
     "README.md",
     "Documentation/Badges.md",
     "Documentation/obsidian-open-folder.png",
-    "D&D/Campaigns/Campaigns.md",
     "Templates/D&D/Session Timestamp Snippet.md",
-    "Templates/D&D/Session Recording Stop Snippet.md",
-    "Templates/D&D/Session Recording Start Snippet.md",
     "Templates/D&D/Campaign Template.md",
     "Documentation/zip-download.png",
     "Templates/D&D/Obsidian.md",
     "Templates/D&D/Badges.md",
     "D&D/Campaigns/Denar Campaign/Denar Campaign.md",
     "D&D/Campaigns/Denar Campaign/2024-12-16/2024-12-16.md",
-    "D&D/Campaigns/Denar Campaign/2024-12-16",
-    "D&D/Campaigns/Denar Campaign",
     "Denar/Denar.md",
-    "Denar",
-    "Templates/D&D/resources/Recording 20241215235126.m4a",
-    "Templates/D&D/resources",
-    "Recording 20241215235028.m4a",
-    "Recording 20241215234921.m4a",
-    "Documentation",
-    "D&D/Campaigns",
-    "D&D",
     "Welcome.md"
   ]
 }
