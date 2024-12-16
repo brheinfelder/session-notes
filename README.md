@@ -22,4 +22,5 @@ I will update this list as I continue development.
 		2) Unzip file to desired location
 3) Launch Obsidian
 4) Open repository as vault
-![image](
+
+![image](https://github.com/brheinfelder/session-notes/blob/main/Documentation/obsidian-open-folder.png)
