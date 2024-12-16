@@ -1,0 +1,203 @@
+{
+  "editorPosition": "right",
+  "attachShortcutToGlobalWindow": false,
+  "globalNamespace": "MF",
+  "formDefinitions": [
+    {
+      "title": "New Timestamp",
+      "name": "timestamp",
+      "customClassname": "timestamp",
+      "fields": [
+        {
+          "name": "time",
+          "label": "",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": true
+          }
+        },
+        {
+          "name": "badgetype",
+          "label": "Badge Style",
+          "description": "Badge Style to use for timestamp note. See timestamp preview at the bottom of the page",
+          "isRequired": false,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "add",
+                "label": "Add"
+              },
+              {
+                "value": "answer",
+                "label": "Answer"
+              },
+              {
+                "value": "bookmark",
+                "label": "Bookmark"
+              },
+              {
+                "value": "brainstorm",
+                "label": "Brainstorm"
+              },
+              {
+                "value": "character",
+                "label": "Character"
+              },
+              {
+                "value": "checked",
+                "label": "Checked"
+              },
+              {
+                "value": "choice",
+                "label": "Choice"
+              },
+              {
+                "value": "clue",
+                "label": "Clue"
+              },
+              {
+                "value": "con",
+                "label": "Con"
+              },
+              {
+                "value": "conflict",
+                "label": "Conflict"
+              },
+              {
+                "value": "date",
+                "label": "Date"
+              },
+              {
+                "value": "doing",
+                "label": "Doing"
+              },
+              {
+                "value": "dropped",
+                "label": "Dropped"
+              },
+              {
+                "value": "fix",
+                "label": "Fix"
+              },
+              {
+                "value": "foreshadow",
+                "label": "Foreshadow"
+              },
+              {
+                "value": "forward",
+                "label": "Forward"
+              },
+              {
+                "value": "half",
+                "label": "Half"
+              },
+              {
+                "value": "health",
+                "label": "Health"
+              },
+              {
+                "value": "idea",
+                "label": "Idea"
+              },
+              {
+                "value": "important",
+                "label": "Important"
+              },
+              {
+                "value": "information",
+                "label": "Information"
+              },
+              {
+                "value": "location",
+                "label": "Location"
+              },
+              {
+                "value": "outline",
+                "label": "Outline"
+              },
+              {
+                "value": "paraphrase",
+                "label": "Paraphrase"
+              },
+              {
+                "value": "pro",
+                "label": "Pro"
+              },
+              {
+                "value": "question",
+                "label": "Question"
+              },
+              {
+                "value": "quote",
+                "label": "Quote"
+              },
+              {
+                "value": "research",
+                "label": "Research"
+              },
+              {
+                "value": "reward",
+                "label": "Reward"
+              },
+              {
+                "value": "secret",
+                "label": "Secret"
+              },
+              {
+                "value": "symbolism",
+                "label": "Symbolism"
+              },
+              {
+                "value": "talk",
+                "label": "Talk"
+              },
+              {
+                "value": "time",
+                "label": "Time"
+              },
+              {
+                "value": "world",
+                "label": "World"
+              }
+            ]
+          }
+        },
+        {
+          "name": "badgetext",
+          "label": "Badge Text",
+          "description": "Badge Text",
+          "isRequired": true,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "desc",
+          "label": "Timestamp Description",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "preview",
+          "label": "Preview",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "markdown_block",
+            "body": "return '`[!!time:' + `${form.time}` + ']` ' + '`[!!' + `${form.badgetype}` + ':' + `${form.badgetext}` + ']` ' + `${form.desc}`"
+          }
+        }
+      ],
+      "version": "1"
+    }
+  ]
+}
