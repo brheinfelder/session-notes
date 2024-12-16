@@ -17,4 +17,9 @@ I will update this list as I continue development.
 		3) Clone repository:
 		   `git clone https://github.com/brheinfelder/session-notes.git`
 	1) Using Zip (Option 2)
-		1) ![[zip-download.png]]
+		1) Download Zip file
+		![image](https://github.com/brheinfelder/session-notes/blob/main/Documentation/zip-download.png)
+		2) Unzip file to desired location
+3) Launch Obsidian
+4) Open repository as vault
+![image](
