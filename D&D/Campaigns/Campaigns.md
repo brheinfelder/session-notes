@@ -1,7 +1,6 @@
 ---
 obsidianUIMode: preview
 ---
-
 ```meta-bind-button
 label: New Campaign
 icon: plus

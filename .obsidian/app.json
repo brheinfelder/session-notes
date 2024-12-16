@@ -2,5 +2,7 @@
   "attachmentFolderPath": "./resources",
   "readableLineLength": true,
   "newFileLocation": "current",
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute"
 }
