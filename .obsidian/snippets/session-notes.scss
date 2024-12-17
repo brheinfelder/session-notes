@@ -1,0 +1,49 @@
+@import '_theming_vars.scss';
+
+.session{
+    --file-line-width: 100%;
+    .callout{
+        &[data-callout="recording"] {
+            --callout-color: rgba(0,0,0,0);
+            --callout-icon: lucide-mic;
+            border: solid;
+            --callout-radius: 10px;
+            border-color: var(--secondary-5e-suite);
+            .callout-title{
+                color: var(--primary-5e-suite);
+            }
+        }
+    }
+    .mb-button-inner.mod-plain{
+        &[aria-label="Start Session Recording"]{
+            color: rgb(0, 128, 0);
+            border:solid;
+            border-width: 2px;
+            margin-top: 5px;
+            background-color: rgba(0,128,0,0.2);
+            &:hover{
+                color: rgba(0,170,0,1);
+            } 
+        }
+        &[aria-label="Stop Audio Recording"]{
+            color: rgb(128,0,0);
+            border:solid;
+            border-width: 2px;
+            margin-top: 5px;
+            background-color: rgba(128,0,0,0.2);
+            &:hover{
+                color: rgba(170,0,0,1);
+            } 
+        }
+        &[aria-label="Add Timestamp Note"]{
+            color: rgb(0, 98, 190);
+            border:solid;
+            border-width: 2px;
+            margin-top: 5px;
+            background-color: rgba(0,98,190,0.2);
+            &:hover{
+                color: rgb(0, 132, 255);
+            } 
+        }
+    }
+}

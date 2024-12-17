@@ -1,0 +1,66 @@
+/* @settings
+
+name: 5e Suite
+id: br-5e
+settings:
+    -
+        id: primary-5e-suite
+        title: Primary Color
+        type: variable-color
+        format: rgb
+        default: "rgb(217, 165, 32)"
+    -
+        id: secondary-5e-suite
+        title: Secondary Color
+        type: variable-color
+        format: rgb
+        default: "rgb(0, 77, 128)"
+*/
+body {
+  --primary-5e-suite: rgb(217, 165, 32);
+  --secondary-5e-suite: rgb(0, 77, 128);
+}
+
+.session {
+  --file-line-width: 100%;
+}
+.session .callout[data-callout=recording] {
+  --callout-color: rgba(0,0,0,0);
+  --callout-icon: lucide-mic;
+  border: solid;
+  --callout-radius: 10px;
+  border-color: var(--secondary-5e-suite);
+}
+.session .callout[data-callout=recording] .callout-title {
+  color: var(--primary-5e-suite);
+}
+.session .mb-button-inner.mod-plain[aria-label="Start Session Recording"] {
+  color: rgb(0, 128, 0);
+  border: solid;
+  border-width: 2px;
+  margin-top: 5px;
+  background-color: rgba(0, 128, 0, 0.2);
+}
+.session .mb-button-inner.mod-plain[aria-label="Start Session Recording"]:hover {
+  color: rgb(0, 170, 0);
+}
+.session .mb-button-inner.mod-plain[aria-label="Stop Audio Recording"] {
+  color: rgb(128, 0, 0);
+  border: solid;
+  border-width: 2px;
+  margin-top: 5px;
+  background-color: rgba(128, 0, 0, 0.2);
+}
+.session .mb-button-inner.mod-plain[aria-label="Stop Audio Recording"]:hover {
+  color: rgb(170, 0, 0);
+}
+.session .mb-button-inner.mod-plain[aria-label="Add Timestamp Note"] {
+  color: rgb(0, 98, 190);
+  border: solid;
+  border-width: 2px;
+  margin-top: 5px;
+  background-color: rgba(0, 98, 190, 0.2);
+}
+.session .mb-button-inner.mod-plain[aria-label="Add Timestamp Note"]:hover {
+  color: rgb(0, 132, 255);
+}/*# sourceMappingURL=session-notes.css.map */

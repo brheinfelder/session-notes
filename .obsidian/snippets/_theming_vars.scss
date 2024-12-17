@@ -1,0 +1,22 @@
+/* @settings
+
+name: 5e Suite
+id: br-5e
+settings:
+    -
+        id: primary-5e-suite
+        title: Primary Color
+        type: variable-color
+        format: rgb
+        default: "rgb(217, 165, 32)"
+    -
+        id: secondary-5e-suite
+        title: Secondary Color
+        type: variable-color
+        format: rgb
+        default: "rgb(0, 77, 128)"
+*/
+body{
+    --primary-5e-suite: rgb(217, 165, 32);
+    --secondary-5e-suite: rgb(0, 77, 128);
+}

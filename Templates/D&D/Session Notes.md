@@ -5,15 +5,14 @@ timestamps:
 cssclasses:
   - session
 obsidianUIMode: preview
-recording-link: 
+recording-link: ""
 tags:
   - session
 ---
->[!Recording|float-right] Session Recording
+>[!recording|float-right-large] Session Recording
 >`BUTTON[start-recording]`
 >```dataviewjs
->const file = dv.pages().where(p => p = this);
->const link = file['recording-link'][0];
+>const link = dv.current()['recording-link'];
 >dv.paragraph(link);
 >```
 >```dataview
@@ -28,7 +27,7 @@ tags:
 # Places
 
 <%* const date = tp.date.now("YYYY-MM-DD");
-await tp.file.move(tp.file.folder(true) + "/"+date + "/" + date)
+await tp.file.move(tp.file.folder(true) + "/Sessions/"+date + "/" + date)
 %>
 
 ```meta-bind-button

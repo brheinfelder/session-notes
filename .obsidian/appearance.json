@@ -2,6 +2,7 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "badges",
-    "multi-column"
+    "multi-column",
+    "session-notes"
   ]
 }
